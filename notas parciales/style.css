@@ -1,0 +1,96 @@
+
+/* Add styles here */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 30%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    margin: 20px auto;
+    width: 80vw;
+    text-align: justify;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .studentName{
+    font-weight: bold;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th {
+    text-align: center;
+  }
+
+  .firma_lizzeth{
+    position:relative;
+    margin-top: -18%;
+    margin-bottom: -15%;
+    width: 80%;
+  }
+
+  .firma_mr {
+    position: relative;
+    margin-bottom: -14%;
+    width: 100%;
+  }
+
+  .signature {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 20%;
+    width: 80%;
+    margin: auto;
+    text-align: center
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 750px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .logo {
+        width: 50%;
+      }
+}
