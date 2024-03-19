@@ -65,6 +65,6 @@ function printData(data){
         const grade = element.promedio;
         const hi = element.ih;
         const rowData = {'subject': subject, 'grade': grade, 'hi': hi};
-        //addRow(rowData);
+        addRow(rowData);
     });
 }
